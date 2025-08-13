@@ -1,13 +1,19 @@
 <template>
-  <forms />
+  <div id="app">
+    <Layout />
+  </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
-import forms from './views/forms.vue';
-
+import Layout from './layout/index.vue'
 export default defineComponent({
   name: 'App',
-  components: { forms },
-});
+  components: {
+    Layout
+  }
+})
 </script>
+
+
+
