@@ -4,7 +4,7 @@
   <div class="flex  gap-5 justify-between " >
     <sidebar @toggleSidebar="toggleSidebar" :open="open"/>
     <router-view
-      class="flex-1  bg-fuchsia-500 mt-3 mx-2"
+      class="flex-1  mt-3 mx-2"
     ></router-view>
   </div>
 </template>
