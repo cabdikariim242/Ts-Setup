@@ -2,7 +2,12 @@
 
     <div class="bg-gray-300 w-full max-w-[300px] h-screen hidden lg:flex md:flex  ">
       <div class="flex flex-col gap-2 w-full mt-2 mx-3">
+abdirahman
         <router-link class="shadow-2xl bg-white p-2 font-[500] text-[17px]  rounded-xl" :to="{name:'forms'}">Forms</router-link>
+=======
+        <router-link class="shadow-2xl bg-white p-2 font-[500] text-[17px]  rounded-xl" :to="{name:'About'}">input group</router-link>
+        <router-link class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl" :to="{name:'Home'}">home  group</router-link>
+ main
       </div>
     </div>  
 
