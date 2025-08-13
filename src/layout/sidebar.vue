@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-300 w-full max-w-[300px] h-screen hidden lg:flex md:flex">
+  <div class="bg-gray-300 dark:bg-[rgb(17,15,15)] w-full max-w-[280px] h-screen hidden lg:flex md:flex">
     <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
