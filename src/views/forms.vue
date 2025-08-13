@@ -59,6 +59,7 @@
 
 
 <script>
+import { defineComponent } from "vue";
 import AppLabel from '@/components/labelComp.vue'
 import BaseInput from '@/components/input-comp.vue'
 import AppButton  from '@/components/AppButton.vue'
