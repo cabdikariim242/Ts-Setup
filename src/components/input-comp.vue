@@ -1,10 +1,10 @@
 <template>
-    <input :value="modelValue" :placeholder="title" :type="type"  :class="customClass"
+    <input :value="modelValue" :placeholder="title" :type="type" :disabled="disabled" :class="customClass"
       @input="$emit('update:modelValue', $event.target.value)" v-bind="$attrs">
 </template>
 
 <script>
-export default {                                        
+export default {
   props:{
     modelValue:{
         type: String,
@@ -27,7 +27,10 @@ export default {
             default:false
         }
         },
-        
+        disabled:{
+            type:Boolean,
+            default:false
+        }
      }
   
 
