@@ -6,7 +6,6 @@ import AlertView from '@/views/AlertView.vue'
 const routes: RouteRecordRaw[] = [
   { path: '/', name: 'Home', component: HomeView },
   { path: '/about', name: 'About', component: AboutView },
-  { path: '/AlertView', name: 'AlertView', component: AlertView },
 ]
 
 export default routes
