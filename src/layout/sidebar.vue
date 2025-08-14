@@ -3,14 +3,10 @@
     <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
-        :to="{ name: 'About' }"
+        :to="{ name: 'forms' }"
         >input group</router-link
       >
-      <router-link
-        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
-        :to="{ name: 'Home' }"
-        >home group</router-link
-      >
+    
     </div>
   </div>
 
@@ -22,14 +18,10 @@
        <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
-        :to="{ name: 'About' }"
+        :to="{ name: 'forms' }"
         >input group</router-link
       >
-      <router-link
-        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
-        :to="{ name: 'Home' }"
-        >home group</router-link
-      >
+      
     </div>
   </div>
 </template>
