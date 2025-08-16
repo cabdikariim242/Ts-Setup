@@ -32,6 +32,10 @@
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'TableView' }"
         >Table View</router-link>
+         <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'typography' }"
+        >Typography</router-link>
     
     </div>
   </div>
