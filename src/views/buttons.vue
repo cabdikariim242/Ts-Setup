@@ -1,6 +1,6 @@
   <template>
     <div class="w-full">
-      <p class="text-black mr-[80px] lg:flex md:hidden hidden"><strong>Buttons</strong> . Explore the versatility of our Buttons component for enhancing user interactions on your application.
+      <p class="text-black dark:text-white mr-[80px] lg:flex md:hidden hidden"><strong>Buttons</strong> . Explore the versatility of our Buttons component for enhancing user interactions on your application.
 </p>
 
 <!-- Basic Buttons -->
