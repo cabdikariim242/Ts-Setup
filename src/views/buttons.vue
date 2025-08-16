@@ -1,6 +1,6 @@
   <template>
     <div class="w-full">
-      <p class="text-white mr-[80px] lg:flex md:hidden hidden"><strong>Buttons</strong> . Explore the versatility of our Buttons component for enhancing user interactions on your application.
+      <p class="text-black mr-[80px] lg:flex md:hidden hidden"><strong>Buttons</strong> . Explore the versatility of our Buttons component for enhancing user interactions on your application.
 </p>
 
 <!-- Basic Buttons -->
@@ -8,7 +8,7 @@
    <BaseCard>
     <h1 class="font-bold text-xl mb-4">Basic Buttons</h1>
     <hr class="my-4 border-t-2 border-gray-300 lg:flex md:flex hidden" />
-    <p class="lg:flex md:flex hidden">Buttons are fundamental elements in web and app design, allowing users to interact with your content and perform actions. The Basic Buttons component provides a range of button styles that you can easily incorporate into your project. These buttons come in various color variants to suit your design needs.</p>
+    <p class="lg:flex md:flex hidden ">Buttons are fundamental elements in web and app design, allowing users to interact with your content and perform actions. The Basic Buttons component provides a range of button styles that you can easily incorporate into your project. These buttons come in various color variants to suit your design needs.</p>
     <hr class="my-4 border-t-2 border-gray-300 lg:flex md:flex hidden" />
     <div class="flex flex-wrap items-center gap-2 mt-6 border border-gray-200 p-2">
       <AppButton :customClass="'p-3 bg-blue-900 text-white hover:bg-blue-800 focus:outline-none focus:ring border'">Primary</AppButton>
