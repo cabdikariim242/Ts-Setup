@@ -1,11 +1,19 @@
 <template>
-  <div class="bg-gray-300 dark:bg-[rgb(17,15,15)] w-full max-w-[280px] h-screen hidden lg:flex md:flex">
+  <div class="bg-gray-300 dark:bg-[rgb(17,15,15)] w-full max-w-[280px] fixed bottom-0 top-20 hidden lg:flex md:flex">
     <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'forms' }"
         >input group</router-link
       >
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'inputGroup' }"
+        >input Element</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'buttons' }"
+        >Buttons</router-link>
     
     </div>
   </div>
@@ -13,15 +21,22 @@
   <!-- Sidebar for phones -->
   <div
     v-if="open"
-    class="flex lg:hidden md:hidden bg-gray-300 w-full max-w-[200px] h-screen"
+    class="flex lg:hidden fixed bottom-0 top-20 md:hidden bg-[#414040ea] w-full max-w-[200px] h-screen"
   >
        <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'forms' }"
-        >input group</router-link
-      >
-      
+        >input group</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'inputGroup' }"
+        >input Element</router-link>
+     
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'buttons' }"
+        >Buttons</router-link>
     </div>
   </div>
 </template>
