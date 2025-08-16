@@ -1,10 +1,14 @@
 import type { RouteRecordRaw } from 'vue-router'
 import forms from '@/views/forms.vue'
-import Buttons from '@/views/buttons.vue'
+import inputGroup from '@/views/inputGroup.vue'
+import buttons from '@/views/buttons.vue'
+import alert from '@/views/alert.vue'
 
 const routes: RouteRecordRaw[] = [
-  { path: '/forms', name: 'forms', component: forms },
-  { path: '/Buttons', name: 'Buttons', component: Buttons },
+  { path: '/', name: 'forms', component: forms },
+  { path: '/input-group', name: 'inputGroup', component: inputGroup },
+  { path: '/buttons', name: 'buttons', component: buttons },
+  { path: '/alert', name: 'alert', component: alert },
 ]
 
 export default routes
