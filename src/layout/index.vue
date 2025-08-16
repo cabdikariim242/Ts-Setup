@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script        >
+<script lang="ts">
 import { defineComponent } from "vue";
 import Navbar from "./navbar.vue";
 import Sidebar from "./sidebar.vue";

@@ -44,7 +44,7 @@
       :required="true"
     />
     <BaseInput
-      title="Phone" type="Phone"
+      title="Phone" type="number"
       :customClass="'p-2 w-full focus:outline-none focus:ring border bg-[#d3e5ec] text-black rounded-md'"
     />
 
@@ -58,7 +58,7 @@
 </template>
 
 
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 import AppLabel from '@/components/labelComp.vue'
 import BaseInput from '@/components/input-comp.vue'

@@ -1,58 +1,39 @@
 <template>
-  <input
-    :value="modelValue"
-    :placeholder="title"
-    :type="type"
-    :class="customClass"
-    :required="required"
-    @input="onInput"
-    v-bind="$attrs"
-  />
+    <input :value="modelValue" :placeholder="title" :type="type"  :class="customClass"
+      @input="update" v-bind="$attrs">
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from 'vue'
-import type { InputTypeHTMLAttribute } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'BaseInput',
-  // props
-  props: {
-    modelValue: {
-      type: String as PropType<string>,
-      default: ''
+  props:{
+    modelValue:{
+        type: String,
+        default: ''
     },
-    customClass: {
-      type: String as PropType<string>,
-      default: ''
-    },
-    type: {
-      type: String as PropType<InputTypeHTMLAttribute>,
-      default: 'text'
-    },
-    title: {
-      type: String as PropType<string>,
-      default: ''
-    },
-    required: {
-      type: Boolean as PropType<boolean>,
-      default: false
-    },
+    customClass:{
+     type: String,
+     default: ''   
+     },
+     type:{
+        type: [String || Number],
+            default:''
+        },
+        title:{
+            type:String,
+            default: ''
+        },
+        required:{
+            type:Boolean,
+            default:false
+        }
+        },
+        methods: {
+          update(event: Event) {
+            this.$emit('update:modelValue', (event.target as HTMLInputElement).value);
+          }
+        }
+    })
 
-
-  },
-
-
-  emits: {
-    'update:modelValue': (v: string) => true
-  },
-
-  // methods
-  methods: {
-    onInput(e: Event) {
-      const t = e.target as HTMLInputElement | null
-      this.$emit('update:modelValue', t?.value ?? '')
-    }
-  }
-})
 </script>
