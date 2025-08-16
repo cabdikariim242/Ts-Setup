@@ -9,15 +9,16 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from "vue";
 import DarkModeToggle from "@/components/DarkModeToggle.vue";
-export default {
-components: {
+export default defineComponent({
+  components: {
     DarkModeToggle
   },
   data() {
     return {};
   }
-}
+})
 </script>
 
 <style>

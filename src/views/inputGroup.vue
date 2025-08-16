@@ -1,5 +1,5 @@
     <template>
-      <div class="w-full ">
+      <div class="w-full mt-[4rem] ">
         <baseCard>
 
           <div class="flex lg:flex-row md:flex-row  flex-col gap-4 b w-full ">
@@ -115,13 +115,14 @@
 
     </template>
 
-    <script lan="ts">  
-    import Input  from '@/components/input-comp.vue'
+    <script lang="ts">
+    import { defineComponent } from "vue"
+    import Input from '@/components/input-comp.vue'
     import Label from '@/components/labelComp.vue'
     import BaseCard from '@/components/BaseCard.vue'
 
 
-    export default {
+    export default defineComponent({
       components:
       {Input, Label, BaseCard},
       data(){
@@ -143,7 +144,7 @@
 
     }
   }
-}
+});
 
 
 </script>

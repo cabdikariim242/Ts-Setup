@@ -14,6 +14,14 @@
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'buttons' }"
         >Buttons</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'RegularForm' }"
+        >Regular Form</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'accordingView' }"
+        >According View</router-link>
     
     </div>
   </div>

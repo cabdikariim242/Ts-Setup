@@ -33,7 +33,7 @@ export default defineComponent({
     return {
     }
   }
-})
+});
 </script>
 
 <style>
