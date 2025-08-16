@@ -39,7 +39,7 @@
   <!-- Sidebar for phones -->
   <div
     v-if="open"
-    class="flex lg:hidden fixed bottom-0 top-20 md:hidden bg-[#414040ea] w-full max-w-[200px] h-screen"
+    class="flex lg:hidden fixed bottom-0 top-20 md:hidden bg-[#414040ea] w-full max-w-[260px] h-screen z-[10]"
   >
        <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link

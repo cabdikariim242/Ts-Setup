@@ -397,7 +397,7 @@ import { defineComponent } from "vue";
         customClass:'',
         disabled:false,
         }
-    }
+    },
 
     
 
