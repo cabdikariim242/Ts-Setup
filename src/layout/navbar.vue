@@ -1,5 +1,5 @@
 <template>
-<div class="bg-[#63bcf4] w-full h-20 flex items-center justify-between fixed">
+<div class="bg-[#63bcf4] w-full h-20 flex items-center justify-between fixed z-[10]">
     <div class="flex items-center justify-center h-full ml-3">
         <img class="w-10 hidden lg:flex md:flex " src="@/assets/logo.png" alt="">
         <h1 class="text-white hidden lg:flex md:flex  dark:text-[rgb(36,32,32)] text-[30px] font-bold ml-2">vue Logo</h1>
