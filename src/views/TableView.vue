@@ -18,10 +18,10 @@
           <TableComp
             :Headers="Headers"
             :Rows="Rows"
-            tableClass="text-left text-[#48566a]"
-            tableheadClass="border-b-2 py-3 font-[500] px-4 "
-            rowClass="text-left text-[#48566a] border-b "
-            tabledataClass="py-3 font-[400] px-4 "
+            tableClass="text-left text-[#48566a] dark:text-white"
+            tableheadClass="border-b-2 py-3 font-[500] px-4 dark:border-[#475569]"
+            rowClass="text-left text-[#48566a] border-b dark:text-white"
+            tabledataClass="py-3 font-[400] px-4 dark:text-white"
           />
         </div>
         <!-- second input  -->
@@ -64,10 +64,10 @@
           <TableComp
             :Headers="Headers"
             :Rows="Rows"
-            tableClass="text-left text-[#48566a] border"
-            tableheadClass="border-b-2 py-3 font-[500] px-4 border"
-            rowClass="text-left text-[#48566a]  border"
-            tabledataClass="py-3 font-[400] px-4 border "
+            tableClass="text-left text-[#48566a] border dark:text-white"
+            tableheadClass="border-b-2 py-3 font-[500] px-4 border dark:border-[#475569]"
+            rowClass="text-left text-[#48566a]  border dark:text-white"
+            tabledataClass="py-3 font-[400] px-4 border dark:text-white"
           />
         </div>
       </div>
@@ -99,10 +99,10 @@
           <TableComp
             :Headers="Headers"
             :Rows="Rows"
-            tableClass="text-left text-[#48566a] border"
-            tableheadClass="border-b-2 py-3 font-[500] px-4 border"
-            rowClass="text-left text-[#48566a]  border hover:bg-gray-100"
-            tabledataClass="py-3 font-[400] px-4 border "
+            tableClass="text-left text-[#48566a] border dark:text-white"
+            tableheadClass="border-b-2 py-3 font-[500] px-4 border dark:border-[#475569]"
+            rowClass="text-left text-[#48566a]  border hover:bg-gray-100 dark:text-white"
+            tabledataClass="py-3 font-[400] px-4 border dark:text-white"
           />
         </div>
       </div>
@@ -134,20 +134,20 @@
           <TableComp
             :Headers="Headers"
             :Rows="Rows"
-            tableClass="text-left text-[#48566a] border-b bg-[#1e293b]"
-            tableheadClass="border-b-2 py-3 font-[500] px-4 text-white  "
-            rowClass="text-left text-[#48566a]  "
-            tabledataClass="py-3 font-[400] px-4 border-b"
+            tableClass="text-left text-[#48566a] border-b bg-[#1e293b] dark:text-white"
+            tableheadClass="border-b-2 py-3 font-[500] px-4 text-white  dark:text-white "
+            rowClass="text-left text-[#48566a]  dark:text-white "
+            tabledataClass="py-3 font-[400] px-4 border-b dark:text-white"
           />
         </div>
         <div class="mt-5">
           <TableComp
             :Headers="Headers"
             :Rows="Rows"
-            tableClass="text-left text-[#48566a] border-b bg-[#eef1f6]"
-            tableheadClass="border-b-2 py-3 font-[500] px-4 text-[#4a5669]  "
-            rowClass="text-left text-[#48566a]  "
-            tabledataClass="py-3 font-[400] px-4 border-b"
+            tableClass="text-left text-[#48566a] border-b bg-[#eef1f6] "
+            tableheadClass="border-b-2 py-3 font-[500] px-4 text-[#4a5669]  dark:text-black"
+            rowClass="text-left text-[#48566a]  dark:text-white"
+            tabledataClass="py-3 font-[400] px-4 border-b dark:text-white"
           />
         </div>
       </div>
@@ -184,10 +184,10 @@
           <TableComp
             :Headers="responsive"
             :Rows="responsiveRow"
-            tableClass="text-left over-flow-x-auto text-[#48566a] border-b bg-[#1e293b]"
-            tableheadClass="border-b-2 py-3 font-[500] px-4 text-white  "
+            tableClass="text-left dark:text-[#ffff] text-[#48566a] border-b bg-[#1e293b]"
+            tableheadClass="border-b-2 py-3 font-[500] dark:text-white px-4 text-white  "
             rowClass="text-left text-[#48566a]  "
-            tabledataClass="py-3 font-[400] px-4 border-b"
+            tabledataClass="py-3 font-[400] px-4 border-b dark:text-white"
           />
         </div>
       
