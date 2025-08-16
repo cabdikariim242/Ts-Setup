@@ -1,8 +1,11 @@
 <template>
 
-    <div class="min-h-screen flex items-center justify-center">
+    <div class="w-full mt-[80px]">
 
-      <form action="" class="form p-6 space-y-6 w-[600px] bg-gray-900 rounded-lg">
+
+    <div class="min-h-screen flex items-center justify-center lg:ml-[300px] md:ml-[320px] ml-5">
+
+      <form action="" class="form p-6 space-y-6 w-full m-w-[1000px] bg-gray-900 rounded-lg">
 
 
       <AppLabel
@@ -55,7 +58,9 @@
 
     </div>
   
-</template>
+
+ </div>
+></template>
 
 
 <script lang="ts">
@@ -63,11 +68,12 @@ import { defineComponent } from "vue";
 import AppLabel from '@/components/labelComp.vue'
 import BaseInput from '@/components/input-comp.vue'
 import AppButton  from '@/components/AppButton.vue'
+import BaseCard  from '@/components/BaseCard.vue'
 
 
 export default defineComponent({
   name: 'forms',
-  components: { AppLabel, BaseInput, AppButton },
+  components: { AppLabel, BaseInput, AppButton, BaseCard },
 
 
     data(){

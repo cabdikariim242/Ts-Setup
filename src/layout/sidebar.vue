@@ -23,6 +23,12 @@
         :to="{ name: 'accordingView' }"
         >According View</router-link>
     
+
+         <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'alert' }"
+        >Alerts</router-link>
+    
     </div>
   </div>
 
@@ -45,6 +51,11 @@
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'buttons' }"
         >Buttons</router-link>
+
+        <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'alert' }"
+        >Alerts</router-link>
     </div>
   </div>
 </template>
@@ -53,12 +64,18 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  props: {
-    open: {
+   props: ["open"],
+  data() {
+    return {
+      toggle: false,
+      hover: false,
+      showrouter: false,
+      hideTimer: null,
       type: Boolean,
       default: false,
-    },
-  },
+    };
+  }
+ 
 });
 </script>
 
