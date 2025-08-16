@@ -1,10 +1,10 @@
 <template>
   <navbar @toggleSidebar="toggleSidebar" :open="open"/>
 
-  <div class="flex  gap-5 justify-between " >
+  <div class="flex h-full gap-5 justify-between z-[10]" >
     <sidebar @toggleSidebar="toggleSidebar" :open="open"/>
     <router-view
-      class="flex-1  mt-3 mx-2"
+      class="flex-1  mt-8 ml-3 lg:ml-[320px] md:ml-[320px] mx-2"
     ></router-view>
   </div>
 </template>
