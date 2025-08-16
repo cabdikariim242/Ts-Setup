@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex  flex-col lg:mt-[80px] md:mt-[80px] mt-[80px] md:ml-[150px] ml-[10px] lg:ml-[150px]  lg:mr-[150px] md:mr-[150px] mr-[10px] 2xl:ml-[360px]  2xl:mr-[270px] z-[-10]"
+    class="flex  flex-col mt-[5rem] z-[-10]"
   >
     <BaseCard>
       <h1 class="font-bold text-xl mb-4">Basic Alerts</h1>

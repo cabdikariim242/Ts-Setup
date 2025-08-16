@@ -4,7 +4,7 @@
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'forms' }"
-        >input group</router-link
+        >Form</router-link
       >
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
@@ -28,6 +28,10 @@
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'alert' }"
         >Alerts</router-link>
+         <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'TableView' }"
+        >Table View</router-link>
     
     </div>
   </div>
@@ -41,7 +45,7 @@
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'forms' }"
-        >input group</router-link>
+        >Form</router-link>
       <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'inputGroup' }"
@@ -51,6 +55,14 @@
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'buttons' }"
         >Buttons</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'accordingView' }"
+        >according</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'RegularForm' }"
+        >Regular Form</router-link>
 
         <router-link
         class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"

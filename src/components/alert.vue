@@ -3,7 +3,7 @@
        <i :class="icon"></i>
        
   <P>{{ alert }}</P>
-  <i @click="$emit('cancelAlert')"  :class="icontwo" class=""></i>
+  <i @click="$emit('cancelAlert', index)"  :class="icontwo" class=""></i>
    <div class="flex justify-between items-center">
     <h1 class="font-[500] ">{{ alerth }}</h1>
      <p class=" bg-white rounded-[5px] " :class="spanClass"> {{newe}}</p>
@@ -22,7 +22,7 @@
 
   </template>
 
-  <script lang="ts">
+  <script>
 
   export default {
     props:{
