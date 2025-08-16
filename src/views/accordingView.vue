@@ -1,6 +1,6 @@
 <template>
    <div class="w-full ">
-      <p class="text-white mr-[80px] lg:flex md:hidden hidden"><strong>Accordion</strong>   .  Explore our accordion component, effortless content organization and presentation!</p>
+      <p class="text-black dark:text-white mr-[80px] lg:flex md:hidden hidden"><strong>Accordion</strong>   .  Explore our accordion component, effortless content organization and presentation!</p>
 
      <BaseCard>
   <div class="space-y-4">

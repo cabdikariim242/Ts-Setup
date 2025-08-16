@@ -6,7 +6,18 @@
         <i @click="$emit('toggleSidebar')" class="fa-solid fa-bars flex lg:hidden md:hidden text-[#fffdfd] dark:[gray] text-[30px]"></i>
     </div>
     <div class="flex items-center justify-center gap-5 text-[20px] dark:text-[rgb(36,32,32)] text-[#fffdfd]">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <button
+            @click="toggleFullscreen"
+            class="py-2 text-white rounded items-center"
+          >
+            <i
+              :class="
+                isFullscreen
+                  ? 'fa-solid fa-minimize dark:text-black text-[20px]'
+                  : 'fa-solid fa-expand dark:text-black text-[20px]'
+              "
+            ></i>
+          </button>
     <DarkModeToggle />
     <i class="fa-solid fa-bell"></i>
     <img src="@/assets/yiksi.png" class="w-10 mr-5 rounded-full  " alt="User Avatar">
@@ -31,7 +42,27 @@ export default defineComponent({
   },
   data() {
     return {
+      isFullscreen: false,
     }
+  },
+  methods: {
+    async toggleFullscreen() {
+      try {
+        if (!document.fullscreenElement) {
+          await document.documentElement.requestFullscreen();
+        } else {
+          await document.exitFullscreen();
+        }
+      } catch (err) {
+        console.error('Fullscreen toggle error:', err);
+      }
+    },
+    onFullScreenChange() {
+      this.isFullscreen = !!document.fullscreenElement;
+    }
+  },
+  mounted() {
+    document.addEventListener('fullscreenchange', this.onFullScreenChange);
   }
 });
 </script>
