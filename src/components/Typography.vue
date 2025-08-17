@@ -1,7 +1,8 @@
 <template>
     <div :class="CustomClass">
        <h1  :class="CustomClass">{{ msg }}
-        <span>{{ span }}</span>
+        <span :class="spanclass">{{ span }}</span>
+
        </h1>
 
 
@@ -13,16 +14,32 @@ export default{
     props:{
         CustomClass:{
             type:String,
-            default:','
+            default:''
         },
+
+         spanclass:{
+            type:String,
+            default:''
+        },
+        
         msg:{
             type: String,
-            default:','
+            default:''
 
         },
         span:{
             type: String,
-            default:','
+            default:''
+
+        },
+         span1:{
+            type: String,
+            default:''
+
+        },
+         msg1:{
+            type: String,
+            default:''
 
         },
 
