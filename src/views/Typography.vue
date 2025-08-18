@@ -161,7 +161,7 @@
                     <spans spans="3" spanclass1="bg-[#0d9488] p-1  text-[15px] text-white rounded-full  text-center" />
                     <spans spans="4" spanclass1="bg-[#ca8a04] p-1  text-[15px] text-white rounded-full  text-center" />
                     <spans spans="5" spanclass1="bg-[#b91c1c] p-1  text-[15px] text-white rounded-full  text-center" />
-                    <spans spans="6" spanclass1="bg-[#cdd1d7] p-1  text-[15px] text-white rounded-full  text-center text-slate-600 dark:border-darkmode-100/40 dark:text-slate-300" /> <br>
+                    <spans spans="6" spanclass1="bg-[#cdd1d7] p-1  text-[15px] text-white rounded-full  text-center text-slate-600  dark:border-darkmode-100/40 dark:text-slate-300" /> <br>
 
 
                     
