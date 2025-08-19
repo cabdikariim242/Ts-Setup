@@ -7,7 +7,6 @@ import RegularForm from '@/views/RegularForm.vue'
 import accordingView from '@/views/accordingView.vue'
 import TableView from '@/views/TableView.vue'
 import typography from '@/views/Typography.vue'
-import TestView from '@/views/TestView.vue'
 
 const routes: RouteRecordRaw[] = [
   { path: '/', name: 'forms', component: forms },
@@ -18,7 +17,7 @@ const routes: RouteRecordRaw[] = [
   { path: '/according', name: 'accordingView', component: accordingView },
   { path: '/table', name: 'TableView', component: TableView },
   { path: '/typograph', name: 'typography', component: typography },
-  { path: '/test', name: 'TestView', component: TestView },
+  
 ]
 
 export default routes

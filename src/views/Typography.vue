@@ -29,10 +29,7 @@
                 </div>
 
                 <p class="mt-4 text-[#475569] text-[14px] dark:text-white">
-                    Icon alerts are a valuable tool for enhancing user interaction by
-                    providing clear and visually appealing messages. By following the
-                    steps above, you can easily integrate icon alerts into your project
-                    and effectively communicate important information to your users.
+                    Headings play a crucial role in structuring and organizing your content. By using headings effectively and consistently, you can improve the accessibility and readability of your application. Remember to choose the appropriate heading level, keep headings semantic, and follow accessibility best practices for a better user experience.
                 </p>
             </div>
         </BaseCard>
@@ -40,7 +37,7 @@
 
         <!-- BASE CARD 2  -->
         <BaseCard>
-            <h1 class="font-bold text-xl mb-4">Icon Alerts</h1>
+            <h1 class="font-bold text-xl mb-4">Test Settings</h1>
             <hr />
             <div class="inline-block w-full">
                 <p class="text-[#475569] text-[14px] dark:text-white">
@@ -77,13 +74,14 @@
         </BaseCard>
 
         <BaseCard>
-            <h1 class="font-bold text-xl mb-4">Common Elements</h1>
+            <h1 class="font-bold text-xl mb-4">Common Elements
+</h1>
             <hr />
             <div class="inline-block w-full">
                 <p class="text-[#475569] text-[14px] dark:text-white">
-                    Common HTML elements are often used to style or convey special meanings within your content. This
-                    section covers some common HTML elements that can be used to enhance the presentation of your
-                    text-based content.
+                    Common HTML elements are often used to style or convey special meanings within your content. This section covers some common HTML elements that can be used to enhance the presentation of your text-based content.
+
+
                 </p>
 
                 <p class="mt-5 text-[#475569] mb-4 dark:text-white">Example code / preview</p>
@@ -123,13 +121,11 @@
         </BaseCard>
 
         <BaseCard>
-            <h1 class="font-bold text-xl mb-4">Common Elements</h1>
+            <h1 class="font-bold text-xl mb-4">Badgets</h1>
             <hr />
             <div class="inline-block w-full">
                 <p class="text-[#475569] text-[14px] dark:text-white">
-                    Common HTML elements are often used to style or convey special meanings within your content. This
-                    section covers some common HTML elements that can be used to enhance the presentation of your
-                    text-based content.
+                    Badges are small, informative components used to visually represent status, notifications, or other metadata in a concise manner. This section covers how to use badges effectively in your web applications.
                 </p>
 
                 <p class="mt-5 text-[#475569] mb-4 dark:text-white">Example code / preview</p>
@@ -140,7 +136,7 @@
 
 
                     <spans spans="1" spanclass1="bg-[#03045e] p-1  text-[15px] text-white rounded-full  text-center " />
-                    <spans spans="2" spanclass1="bg-[#f1f4f8] p-1  text-[15px] text-white rounded-full  text-center text-slate-600 dark:border-darkmode-100/40 dark:text-slate-300" />
+                    <spans spans="2" spanclass1="bg-[#f1f4f8] p-1  text-[15px] text-black rounded-full  text-center text-slate-600 dark:border-darkmode-100/40 dark:text-slate-300" />
                     <spans spans="3" spanclass1="bg-[#0d9488] p-1  text-[15px] text-white rounded-full  text-center" />
                     <spans spans="4" spanclass1="bg-[#ca8a04] p-1  text-[15px] text-white rounded-full  text-center" />
                     <spans spans="5" spanclass1="bg-[#b91c1c] p-1  text-[15px] text-white rounded-full  text-center" />
@@ -151,42 +147,37 @@
 
                 </div>
 
-                     <h1 class="mt-6">Badge Sizes</h1>
+                     <h1 class="mt-6">Square Badge</h1>
 
                     <div class="border-2 px-2 border-dotted py-2 flex flex-row gap-2 mt-2">
 
 
-                    <spans spans="1" spanclass1="bg-[#03045e] p-1  text-[15px] text-white rounded-full  text-center " />
-                    <spans spans="2" spanclass1="bg-[#f1f4f8] p-1  text-[15px] text-white rounded-full  text-center text-slate-600 dark:border-darkmode-100/40 dark:text-slate-300" />
-                    <spans spans="3" spanclass1="bg-[#0d9488] p-1  text-[15px] text-white rounded-full  text-center" />
-                    <spans spans="4" spanclass1="bg-[#ca8a04] p-1  text-[15px] text-white rounded-full  text-center" />
-                    <spans spans="5" spanclass1="bg-[#b91c1c] p-1  text-[15px] text-white rounded-full  text-center" />
-                    <spans spans="6" spanclass1="bg-[#cdd1d7] p-1  text-[15px] text-white rounded-full  text-center text-slate-600  dark:border-darkmode-100/40 dark:text-slate-300" /> <br>
+                    <spans spans="1" spanclass1="bg-[#03045e] p-1  text-[15px] text-white  text-center " />
+                    <spans spans="2" spanclass1="bg-[#f1f4f8] p-1  text-[15px] text-black  text-center text-slate-600 dark:border-darkmode-100/40 dark:text-slate-300" />
+                    <spans spans="3" spanclass1="bg-[#0d9488] p-1  text-[15px] text-white  text-center" />
+                    <spans spans="4" spanclass1="bg-[#ca8a04] p-1  text-[15px] text-white  text-center" />
+                    <spans spans="5" spanclass1="bg-[#b91c1c] p-1  text-[15px] text-white  text-center" />
+                    <spans spans="6" spanclass1="bg-[#cdd1d7] p-1  text-[15px] text-white border  text-center text-slate-600  dark:border-darkmode-100/40 dark:text-slate-300" /> 
+                    <spans spans="6" spanclass1="bg-[#cdd1d7] p-1  text-[15px] text-white  text-center text-slate-600  dark:border-darkmode-100/40 dark:text-slate-300" /> 
 
 
                     
-
-                   
-
-
-
-
                 </div>
 
+                <h1 class="mt-6">outline Badge</h1>
+                <div class="border-2 px-2 border-dotted py-7 flex flex-row gap-2">
 
 
-                
-                 
-              
+                    <spans spans="1" spanclass1="border-purple-500 border p-2 rounded-full px-4" />
+                    <spans spans="2" spanclass1="border-red-500 border p-2 rounded-full px-4" />
+                    <spans spans="3" spanclass1="border-yellow-500 border p-2 rounded-full px-4" />
+                    <spans spans="4" spanclass1="border-green-500 border p-2 rounded-full px-4" />
+                    <spans spans="5" spanclass1="border-black-500 border p-2 rounded-full px-4" />
+                    <spans spans="6" spanclass1="border-blue-500 border p-2 rounded-full px-4" /> 
 
-                <p class="text-[#475569] text-[14px] dark:text-white">These common HTML elements provide you with a
-                    range of tools to enhance the styling and meaning of your text-based content. By using these
-                    elements appropriately, you can improve the readability and visual presentation of your content
-                    while conveying specific meanings or emphasis where needed.</p>
-
-
-
-
+                        
+                    </div>
+                <p class="text-[#475569] text-[14px] dark:text-white">Badges are versatile components that can help you convey important information or highlight specific elements in your application. By using different variants, icons, counts, and custom styling, you can create badges that fit seamlessly into your design and improve user experience.</p>
 
             </div>
         </BaseCard>
