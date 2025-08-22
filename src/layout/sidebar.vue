@@ -43,7 +43,7 @@
         :to="{ name: 'TableView' }"
         >Table View</router-link>
          <router-link
-        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        class="shadow-2xl bg-white dark:bg-black dark:text-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'typography' }"
         >Typography</router-link>
          
@@ -88,6 +88,10 @@
         class="shadow-2xl bg-white p-2 font-[500] dark:bg-black dark:text-white text-[17px] rounded-xl"
         :to="{ name: 'alert' }"
         >Alerts</router-link>
+        <router-link
+        class="shadow-2xl bg-white p-2 font-[500] dark:bg-black dark:text-white text-[17px] rounded-xl"
+        :to="{ name: 'typography' }"
+        >typography</router-link>
     </div>
   </div>
 </template>
@@ -114,6 +118,11 @@ export default defineComponent({
 <style scoped>
 .dark .router-link-exact-active {
   background-color: rgba(0, 0, 255, 0.377);
+  color: white;
+}
+.router-link-exact-active {
+  background: linear-gradient(to right, #a14ffeb6 50%, #d800fec4 100%);
+
   color: white;
 }
 </style>

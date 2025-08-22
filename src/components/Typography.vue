@@ -3,6 +3,8 @@
        <h1  :class="CustomClass">{{ msg }}
         <span :class="spanclass">{{ span }}</span>
 
+        
+
        </h1>
 
 
