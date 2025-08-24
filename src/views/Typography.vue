@@ -1,6 +1,9 @@
 <template>
     <div class="mt-20">
         <BaseCard>
+            <section id="links">
+
+            </section>
             <h1 class="font-bold text-xl mb-4">Heading</h1>
             <hr />
             <div class="inline-block w-full">
@@ -113,6 +116,10 @@
                     elements appropriately, you can improve the readability and visual presentation of your content
                     while conveying specific meanings or emphasis where needed.</p>
 
+                     <p class="mt-5 text-[#475569] mb-4 dark:text-white">Example code / preview</p>
+
+                     <div class="border-2 px-2 border-dotted py-2"></div>
+
 
 
 
@@ -180,6 +187,24 @@
                 <p class="text-[#475569] text-[14px] dark:text-white">Badges are versatile components that can help you convey important information or highlight specific elements in your application. By using different variants, icons, counts, and custom styling, you can create badges that fit seamlessly into your design and improve user experience.</p>
 
             </div>
+        </BaseCard>
+
+        <BaseCard>
+         <h1 class="font-bold text-xl mb-4">Heading</h1>
+
+         <div class="inline-block w-full">
+             <p class="text-[#475569] text-[14px] dark:text-white">
+                    Headings are an essential part of structuring and organizing content in your application. They
+                    provide hierarchy and help users navigate and understand the information presented. This section
+                    covers how to use headings effectively in your project.
+                </p> 
+                <div class="border-2 px-2 border-dotted py-2">
+                    <a href="#links">example test</a>
+
+
+                </div>
+
+         </div>
         </BaseCard>
 
 

@@ -9,6 +9,7 @@ import TableView from '@/views/TableView.vue'
 import DatePickerView from '@/views/DatePickerView.vue'
 import SliderView from '@/views/SliderView.vue'
 import Typography from '@/views/Typography.vue'
+import ProgressBar from '@/views/ProgressBar.vue'
 
 const routes: RouteRecordRaw[] = [
   { path: '/', name: 'forms', component: forms },
@@ -21,6 +22,7 @@ const routes: RouteRecordRaw[] = [
   { path: '/date-picker', name: 'DatePickerView', component: DatePickerView },
   { path: '/slider', name: 'SliderView', component: SliderView },
   { path: '/Typography', name: 'typography', component: Typography },
+  {path: '/Progress', name: 'ProgressBar', component: ProgressBar },
 ]
 
 export default routes
