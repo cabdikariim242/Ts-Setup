@@ -126,7 +126,7 @@ export default defineComponent({
   color: white;
 }
 .router-link-exact-active {
-  background: linear-gradient(to right, #a14ffeb6 50%, #d800fec4 100%);
+  background-color:#63bcf4;
 
   color: white;
 }

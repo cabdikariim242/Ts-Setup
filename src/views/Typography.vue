@@ -189,24 +189,7 @@
             </div>
         </BaseCard>
 
-        <BaseCard>
-         <h1 class="font-bold text-xl mb-4">Heading</h1>
-
-         <div class="inline-block w-full">
-             <p class="text-[#475569] text-[14px] dark:text-white">
-                    Headings are an essential part of structuring and organizing content in your application. They
-                    provide hierarchy and help users navigate and understand the information presented. This section
-                    covers how to use headings effectively in your project.
-                </p> 
-                <div class="border-2 px-2 border-dotted py-2">
-                    <a href="#links">example test</a>
-
-
-                </div>
-
-         </div>
-        </BaseCard>
-
+        
 
     </div>
 
