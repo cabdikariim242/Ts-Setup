@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-300 dark:bg-[rgb(17,15,15)] w-full max-w-[280px] fixed bottom-0 top-20 hidden lg:flex md:flex">
+  <div class="overflow-y-auto bg-gray-300 dark:bg-[rgb(17,15,15)] w-full max-w-[280px] fixed bottom-0 top-20 hidden lg:flex md:flex">
     <div class="flex flex-col gap-2 w-full mt-2 mx-3">
       <router-link
         class="shadow-2xl bg-white dark:bg-black dark:text-white p-2 font-[500] text-[17px] rounded-xl"
@@ -46,6 +46,11 @@
         class="shadow-2xl bg-white dark:bg-black dark:text-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'typography' }"
         >Typography</router-link>
+
+         <router-link
+        class="shadow-2xl bg-white dark:bg-black dark:text-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'ProgressBar' }"
+        >Progress</router-link>
          
         
     
@@ -121,7 +126,7 @@ export default defineComponent({
   color: white;
 }
 .router-link-exact-active {
-  background: linear-gradient(to right, #a14ffeb6 50%, #d800fec4 100%);
+  background-color:#63bcf4;
 
   color: white;
 }

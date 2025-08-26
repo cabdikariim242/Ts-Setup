@@ -1,6 +1,9 @@
 <template>
     <div class="mt-20">
         <BaseCard>
+            <section id="links">
+
+            </section>
             <h1 class="font-bold text-xl mb-4">Heading</h1>
             <hr />
             <div class="inline-block w-full">
@@ -113,6 +116,10 @@
                     elements appropriately, you can improve the readability and visual presentation of your content
                     while conveying specific meanings or emphasis where needed.</p>
 
+                     <p class="mt-5 text-[#475569] mb-4 dark:text-white">Example code / preview</p>
+
+                     <div class="border-2 px-2 border-dotted py-2"></div>
+
 
 
 
@@ -182,6 +189,7 @@
             </div>
         </BaseCard>
 
+        
 
     </div>
 
