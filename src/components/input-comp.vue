@@ -1,10 +1,12 @@
 <template>
     <input :value="modelValue" :placeholder="title" :type="type"  :class="customClass"
-      @input="$emit('update:modelValue', $event.target.value)" v-bind="$attrs">
+      @input="update" v-bind="$attrs">
 </template>
 
-<script>
-export default {                                        
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
   props:{
     modelValue:{
         type: String,
@@ -15,7 +17,7 @@ export default {
      default: ''   
      },
      type:{
-        type: [String, Number],
+        type: [String || Number],
             default:''
         },
         title:{
@@ -27,8 +29,11 @@ export default {
             default:false
         }
         },
-        
-     }
-  
+        methods: {
+          update(event: Event) {
+            this.$emit('update:modelValue', (event.target as HTMLInputElement).value);
+          }
+        }
+    })
 
 </script>

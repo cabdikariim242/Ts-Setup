@@ -1,33 +1,102 @@
 <template>
+  <div class="bg-gray-300 dark:bg-[rgb(17,15,15)] w-full max-w-[280px] fixed bottom-0 top-20 hidden lg:flex md:flex">
+    <div class="flex flex-col gap-2 w-full mt-2 mx-3">
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'forms' }"
+        >Form</router-link
+      >
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'inputGroup' }"
+        >input Element</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'buttons' }"
+        >Buttons</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'RegularForm' }"
+        >Regular Form</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'accordingView' }"
+        >According View</router-link>
+    
 
-    <div class="bg-green-500 w-full max-w-[300px] h-screen hidden lg:flex md:flex ">
-      <div class="flex items-start w-full  justify-center ml-3">
-        <img class="w-10 mt-3" src="@/assets/logo.png" alt="">
-        <h1 class="text-white dark:text-[gray] text-[30px] font-bold ml-2">vue Logo</h1>
-      </div>
-    </div>  
+         <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'alert' }"
+        >Alerts</router-link>
+         <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'TableView' }"
+        >Table View</router-link>
+    
+    </div>
+  </div>
 
-    <!-- Sidebar for phones -->
-    <div v-if="open" class="flex lg:hidden md:hidden bg-red-500 w-full max-w-[200px] h-screen">
-      <div class="flex  items-start justify-center ml-3">
-        <img class="w-10 mt-3" src="@/assets/logo.png" alt="">
-        <h1 class="text-white dark:text-[gray] text-[30px] font-bold ml-2">phone sidebar</h1>
-      </div>
-    </div>  
+  <!-- Sidebar for phones -->
+  <div
+    v-if="open"
+    class="flex lg:hidden fixed bottom-0 top-20 md:hidden bg-[#414040ea] w-full max-w-[260px] h-screen z-[10]"
+  >
+       <div class="flex flex-col gap-2 w-full mt-2 mx-3">
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'forms' }"
+        >Form</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'inputGroup' }"
+        >input Element</router-link>
+     
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'buttons' }"
+        >Buttons</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'accordingView' }"
+        >according</router-link>
+      <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'RegularForm' }"
+        >Regular Form</router-link>
 
+        <router-link
+        class="shadow-2xl bg-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'alert' }"
+        >Alerts</router-link>
+    </div>
+  </div>
 </template>
 
-<script>
-export default {
-    props: {
-        open: {
-            type: Boolean,
-            default: false
-        }
-    }
-}
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+   props: ["open"],
+  data() {
+    return {
+      toggle: false,
+      hover: false,
+      showrouter: false,
+      hideTimer: null,
+      type: Boolean,
+      default: false,
+    };
+  }
+ 
+});
 </script>
 
-<style>
-
+<style scoped>
+.router-link-active {
+  background-color: blue;
+}
+.router-link-exact-active {
+  background-color: rgba(0, 0, 255, 0.411);
+  color: white;
+}
 </style>

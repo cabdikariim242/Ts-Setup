@@ -1,15 +1,15 @@
 <template>
   <navbar @toggleSidebar="toggleSidebar" :open="open"/>
 
-  <div class="flex  gap-5 justify-between " >
+  <div class="flex h-full gap-5 justify-between z-[10]" >
     <sidebar @toggleSidebar="toggleSidebar" :open="open"/>
     <router-view
-      class="flex-1  bg-fuchsia-500 mt-3 mx-2"
+      class="flex-1  mt-32 ml-3 lg:ml-[320px] md:ml-[320px] mx-2 lg:mr-[100px] md:mr-[50px] mr-[10px]"
     ></router-view>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 import Navbar from "./navbar.vue";
 import Sidebar from "./sidebar.vue";

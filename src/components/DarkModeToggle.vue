@@ -5,16 +5,18 @@
     aria-label="Toggle Dark Mode"
   >
     <span v-if="isDark">
-        <i class="fa-solid fa-moon text-[25px] text-[gray]"></i>
+        <i class="fa-solid fa-moon text-[20px] text-[rgb(36,32,32)]"></i>
     </span>
     <span v-else>
-        <i class="fa-solid fa-sun text-[25px] text-[#fffdfd]"></i>
+        <i class="fa-solid fa-sun text-[20px] text-[#fffdfd]"></i>
     </span>
   </button>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   data() {
     return {
       isDark: localStorage.theme === 'dark'
@@ -30,5 +32,5 @@ export default {
       document.documentElement.classList.toggle('dark', this.isDark)
     }
   }
-}
+})
 </script>

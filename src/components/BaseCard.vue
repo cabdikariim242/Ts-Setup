@@ -1,15 +1,26 @@
-.<template>
-    <div
-    class="bg-gray-500 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl"
-  >
+<template>
+ <div class="w-full mt-[40px]  ">
+    <div class="p-10 bg-white dark:bg-[#0f0f0f] dark:text-white w-full  
+    rounded-2xl shadow-md  hover:shadow-lg transition-shadow duration-300">
+    <slot></slot>
+    </div>
   </div>
+
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-
+import { defineComponent } from "vue";
+import DarkModeToggle from "@/components/DarkModeToggle.vue";
 export default defineComponent({
-  name: 'BaseCard',
-
+  components: {
+    DarkModeToggle
+  },
+  data() {
+    return {};
+  }
 })
 </script>
+
+<style>
+
+</style>
