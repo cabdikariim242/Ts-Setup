@@ -55,6 +55,10 @@
         class="shadow-2xl bg-white dark:bg-black dark:text-white p-2 font-[500] text-[17px] rounded-xl"
         :to="{ name: 'TextAreaView' }"
         >TextAreaView</router-link>
+               <router-link
+        class="shadow-2xl bg-white dark:bg-black dark:text-white p-2 font-[500] text-[17px] rounded-xl"
+        :to="{ name: 'TomSelect' }"
+        >Tom Select</router-link>
          
         
     
@@ -105,6 +109,10 @@
         class="shadow-2xl bg-white p-2 font-[500] dark:bg-black dark:text-white text-[17px] rounded-xl"
         :to="{ name: 'TextAreaView' }"
         >TextArea</router-link>
+                <router-link
+        class="shadow-2xl bg-white p-2 font-[500] dark:bg-black dark:text-white text-[17px] rounded-xl"
+        :to="{ name: 'TomSelect' }"
+        >Tom Select</router-link>
     </div>
   </div>
 </template>
