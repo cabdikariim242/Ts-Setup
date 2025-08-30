@@ -29,7 +29,7 @@
             </div>
 
             <div class="p-10">
-                <h2 class="text-lg font-bold mb-2 text-gray-900 dark:text-gray-100">3. Disabled Selected</h2>
+                <h2 class="text-lg font-bold mb-2 text-gray-900 dark:text-gray-100">3. Disabled Selected.</h2>
                 <h3 class="mb-4 text-gray-700 dark:text-gray-300">Supports categorized options using group headers
                     inside the dropdown.</h3>
                 <!-- start -->
