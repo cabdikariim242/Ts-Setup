@@ -11,6 +11,7 @@ import SliderView from '@/views/SliderView.vue'
 import Typography from '@/views/Typography.vue'
 import ProgressBar from '@/views/ProgressBar.vue'
 import TextAreaView from '@/views/TextAreaView.vue'
+import TomSelect from '@/views/TomSelect.vue'
 
 const routes: RouteRecordRaw[] = [
   { path: '/', name: 'forms', component: forms },
@@ -25,6 +26,7 @@ const routes: RouteRecordRaw[] = [
   { path: '/Typography', name: 'typography', component: Typography },
   {path: '/Progress', name: 'ProgressBar', component: ProgressBar },
   {path: '/TextAreaView', name: 'TextAreaView', component: TextAreaView },
+  {path: '/TomSelect', name: 'TomSelect', component: TomSelect },
 ]
 
 export default routes
